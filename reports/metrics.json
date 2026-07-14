@@ -1,0 +1,20 @@
+{
+  "positive": {
+    "precision": 0.939,
+    "recall": 0.969,
+    "f1_score": 0.954,
+    "support": 32
+  },
+  "negative": {
+    "precision": 0.969,
+    "recall": 0.969,
+    "f1_score": 0.969,
+    "support": 32
+  },
+  "neutral": {
+    "precision": 1.0,
+    "recall": 0.923,
+    "f1_score": 0.96,
+    "support": 13
+  }
+}
