@@ -19,8 +19,14 @@ l'API sur `http://localhost:5000`.
 
 ## Utilisation
 
+Tester la santé de l'API : 
 ```bash
-curl -X POST http://localhost:5000/analyze \
+curl http://127.0.0.1:5000/health
+```
+
+Tester le modèle pour qu'il note des tweets :
+```bash
+curl -X POST http://127.0.0.1:5000/analyze \
   -H "Content-Type: application/json" \
   -d '{"tweets": ["Super produit !", "Vraiment déçu du service"]}'
 ```
